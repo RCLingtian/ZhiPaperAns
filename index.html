@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>纸条答案 · Lite版</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css?v=1">
+    <script src="./script/loadlesson.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="left-top">
+            <img src="./images/logo.png" alt="logo" style="width:auto; margin-left: 20px; height: 60px;">
+            <!--<h1>纸条答案 · Lite版</h1>-->
+        </div>
+        <div class="right-top">
+            <div class="search-box" style="margin-right: 20px;">
+                <div class="search-input">
+                    <input type="text" id="search" placeholder="查找纸条" autocomplete="off">
+                    <span id="search-empty" style="display: none;"></span>
+                </div>
+            </div>
+            <nav>
+                <ul>
+                    <!-- 100年后再做吧 -->
+                    <!-- <li><a href="#" class="unuse" style="margin-right: 20px" title="访问隐私答案">输入小纸条</a></li> -->
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <main>
+        <div id="app">
+            <div id="notice">
+                <h2>公告</h2>
+                <ul>
+                    <li>2026年6月1日起纸条答案Lite版开源啦！</li>
+                </ul>
+            </div>
+            <div id="lesson-box">
+                <div class="lesson-table">
+                    <div class="groom-lesson groom-lesson-this cursor-style">
+                        推荐试卷
+                    </div>
+                    <!--<div class="groom-lesson cursor-style unuse-div">
+                        未配置
+                    </div>-->
+                </div>
+                <div id="updata-style">
+                        <div id="update" class="cursor-style" title="该功能正在开发中...">
+                            催更答案
+                        </div>
+                        <script src="./script/main.js" defer></script>
+                    </div>
+                <div id="lesson-list">
+                    <!--内容会被动态加载在这里-->
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <a href="https://github.com/RCLingtian/ZhiPaperAns">原作者Github仓库地址</a>
+    </footer>
+</body>
+</html>
