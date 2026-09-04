@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
 
-    document.title = "纸条答案 · Lite版 - 答案";
+    document.title = "纸条答案开源版 - 答案";
 
     // 隐藏所有class为"aiAssistant"的a元素
     document.querySelectorAll('a.aiAssistant').forEach(element => {
